@@ -16,9 +16,9 @@
 
 {% for album in albums %}
     <album>
-        <time>created: {{ album.created_at }}</time>
         <h2><a href="">{{ album.title }}</a></h2>
         <h3><a href="">{{ album.artist }}</a></h3>
+        <time>created: {{ album.created_at }}</time>
     </album>
 {% endfor %}
 </body>
